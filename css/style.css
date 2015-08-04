@@ -52,6 +52,20 @@ h5 a:hover {
 /*========================================================
 										HEADER styles
 =========================================================*/
+.block-0 p {
+  color: #65abb4;
+  font-size: 20px;
+  text-align: right;
+  line-height: 37px;
+  margin-bottom: 2px;
+}
+.phone::before {
+  content: '☎ ';
+}
+.block-0 .phone {
+  padding-right: 10px;
+}
+
 #header {
   padding: 0;
 }
